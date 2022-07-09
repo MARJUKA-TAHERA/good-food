@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    color: rgb(83, 80, 80);
+    font-size: 30px;
+}
+p{
+    color: rgb(139, 133, 133);
+    font-weight: 600;
+}
+small{
+    color: rgb(139, 133, 133);
+    font-weight: 600;
+}
+.color-orange{
+    color: orange;
+}
+.food-section{
+    display: flex;
+    margin-left: 8%;
+}
+.half-width{
+    width: 50%;
+}
+.button{
+    background-image: linear-gradient(orange, red);
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 700;
+    width: 192px;
+    height: 68px;
+    padding: 20px 30px;
+    border-radius: 90px;
+
+}
+
+.about-container{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+   justify-content: center;
+}
+.about-us-img{
+    width: 338px;
+    height: 536px;
+    padding-top: 64px;
+    padding-left: 186px;
+}
+.aboutUs-text{
+    width: 540px;
+    height: 246px;
+    padding: opx 48px;
+    margin-top: 127px;
+    margin-bottom: 227px;
+}
+.Racipe{
+    margin-bottom: 70px;
+}
+.racipies{
+    text-align: center;
+}
+.racipe-title-sec{
+    display: flex;
+    width: 50%;
+    padding-left: 200px;
+    padding-right: 50px;
+}
+.racipe-img{
+    width: 540px;
+    height: 296px;
+    border-radius: 30px;
+}
+.eatch-title{
+    width: 610px;
+    height: 450px;
+    margin-right: 20px;
+    border-radius: 40px;
+    padding: 18px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+}
+.media-section{
+    display: flex;
+    width: 1239px;
+    height: 226px;
+    margin-left: 166px;
+  
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 80px;
+
+}
+.food-img{
+    display: flex;
+    width: 25%;
+}
+.food-img img{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 50px;
+    
+}
+.downside-food{
+    margin-top: 150px;
+}
+.special-item{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.special-food{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.girls-sec img{
+    width: 800px;
+}
+.girls-sec{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+.list{
+    margin-top: 100px;
+    padding-left: 150px;
+}
+
+
+footer{
+    background-color: black;
+    color: gray;
+    width: 100%;
+    height: 256px;
+    padding-top: 40px;
+    text-align: center;
+}
